@@ -1,0 +1,179 @@
+<app-header></app-header>
+<!-- header end -->
+<!-- page-title-area start -->
+<div class="page-title-area" id="uprofile">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-xs-12">
+        <div class="title-heading">
+          <h3>My Account</h3>
+          <ul class="list-inline">
+            <li class="col-md-3 col-xs-6">
+              <a routerLink="/orders">
+                <h5>My Orders </h5>
+                <p>View, Modify &amp; Track Orders</p>
+              </a>
+            </li>
+            <li class="col-md-3 col-xs-6">
+              <a routerLink="/saved-cards">
+                <h5>Saved Cards </h5>
+                <p>Edit, Add or Remove Cards</p>
+              </a>
+            </li>
+            <li class="col-md-3 col-xs-6 active">
+              <a routerLink="/saved-address">
+                <h5>My Address </h5>
+                <p>Edit, Add or Remove Address</p>
+              </a>
+            </li>
+            <li class="col-md-3 col-xs-6">
+              <a routerLink="/profile">
+                <h5>My Profile </h5>
+                <p>Edit Personal Info, Change Password</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- page-title-area end -->
+<!-- login-area start -->
+<div class="login-area addresses">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <button data-toggle="modal" data-target="#productModal" title="Add New Address" class="btn add_address"><i class="fa fa-plus"></i> Add New Address</button>
+      </div>
+      <div class="col-md-4">
+        <div class="cart_card saved_addresses">
+          <h2 class="fs-title">Home Address 
+            <span>
+            <button data-toggle="modal" data-target="#productModal" title="Edit Address" class="ed-btn"><i class="fa fa-pencil-square"></i></button>
+            <input id="radio-1" class="radio-custom" name="radio-group" type="radio" checked>
+            <label title="Select Address" for="radio-1" class="radio-custom-label"></label>
+            </span>
+          </h2>
+          <div class="product-content">
+            <h3>C 142, Sector 63 Rd, C Block</h3>
+            <h3>Noida - 201301</h3>
+            <h3>Uttar Pradesh</h3>
+            <h5>Mobile : <strong>9876543210</strong></h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 ">
+        <div class="cart_card saved_addresses">
+          <h2 class="fs-title">Office Address
+            <span>
+            <button data-toggle="modal" data-target="#productModal" title="Edit Address" class="ed-btn"><i class="fa fa-pencil-square"></i></button>
+            <input id="radio-2" class="radio-custom"name="radio-group" type="radio">
+            <label for="radio-2" class="radio-custom-label"></label>
+            </span>
+          </h2>
+          <div class="product-content">
+            <h3>C 142, Sector 63 Rd, C Block</h3>
+            <h3>Noida - 201301</h3>
+            <h3>Uttar Pradesh</h3>
+            <h5>Mobile : <strong>9876543210</strong></h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 ">
+        <div class="cart_card saved_addresses">
+          <h2 class="fs-title">New Home
+            <span>
+            <button data-toggle="modal" data-target="#productModal" title="Edit Address" class="ed-btn"><i class="fa fa-pencil-square"></i></button>
+            <input id="radio-3" class="radio-custom" name="radio-group" type="radio">
+            <label for="radio-3" class="radio-custom-label"></label>
+            </span>
+          </h2>
+          <div class="product-content">
+            <h3>C 142, Sector 63 Rd, C Block</h3>
+            <h3>Noida - 201301</h3>
+            <h3>Uttar Pradesh</h3>
+            <h5>Mobile : <strong>9876543210</strong></h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade saved_addresses" id="productModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="checkout-form-list">
+                  <label>Full Name <span class="required">*</span></label>
+                  <input type="text" placeholder="" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="checkout-form-list">
+                  <label>Phone  <span class="required">*</span></label>
+                  <input type="text" placeholder="Postcode / Zip" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="checkout-form-list">
+                  <label>House No./Apartment/Locality</label>
+                  <input type="text" placeholder="" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="checkout-form-list">
+                  <label>Town / City <span class="required">*</span></label>
+                  <input type="text" placeholder="Town / City" />
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="checkout-form-list">
+                  <label>Address <span class="required">*</span></label>
+                  <input type="text" placeholder="Street address" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="checkout-form-list">
+                  <label>State / County <span class="required">*</span></label>
+                  <input type="text" placeholder="" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="checkout-form-list">
+                  <label>Postcode / Zip <span class="required">*</span></label>
+                  <input type="text" placeholder="Postcode / Zip" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="checkout-form-list">
+                  <label>Landmark</label>
+                  <input type="text" placeholder="" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="checkout-form-list">
+                  <label>Alternate Phone</label>
+                  <input type="text" placeholder="Alternate No." />
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="order-button-payment" style="width: 160px; margin: 0 auto;">
+                  <input type="submit" value="Save" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal end -->
+  </div>
+</div>
+<!-- login-area end -->
+<!-- footer start -->
+<app-footer></app-footer>

@@ -1,0 +1,77 @@
+<app-header></app-header>
+<!-- header end -->
+<!-- cart-main-area start -->
+<div class="cart-main-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <form id="msform">
+          <!-- progressbar -->
+          <ul id="progressbar">
+            <li class="active">Shopping Cart</li>
+            <li class="active">Address</li>
+            <li>Payment Method</li>
+            <li>Payment</li>
+          </ul>
+          <!-- fieldsets -->
+          <fieldset>
+            <div class="col-md-4 ">
+              <div class="cart_card saved_addresses">
+                <h2 class="fs-title">Home Address 
+                  <span>
+                  <input id="radio-1" class="radio-custom" name="radio-group" type="radio" checked>
+                  <label for="radio-1" class="radio-custom-label"></label>
+                  </span>
+                </h2>
+                <div class="product-content">
+                  <h3>C 142, Sector 63 Rd, C Block</h3>
+                  <h3>Noida - 201301</h3>
+                  <h3>Uttar Pradesh</h3>
+                  <h5>Mobile : <strong>9876543210</strong></h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="cart_card saved_addresses">
+                <h2 class="fs-title">Office Address
+                  <span>
+                  <input id="radio-2" class="radio-custom"name="radio-group" type="radio">
+                  <label for="radio-2" class="radio-custom-label"></label>
+                  </span>
+                </h2>
+                <div class="product-content">
+                  <h3>C 142, Sector 63 Rd, C Block</h3>
+                  <h3>Noida - 201301</h3>
+                  <h3>Uttar Pradesh</h3>
+                  <h5>Mobile : <strong>9876543210</strong></h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="cart_card saved_addresses">
+                <h2 class="fs-title">New Home
+                  <span>
+                  <input id="radio-3" class="radio-custom" name="radio-group" type="radio">
+                  <label for="radio-3" class="radio-custom-label"></label>
+                  </span>
+                </h2>
+                <div class="product-content">
+                  <h3>C 142, Sector 63 Rd, C Block</h3>
+                  <h3>Noida - 201301</h3>
+                  <h3>Uttar Pradesh</h3>
+                  <h5>Mobile : <strong>9876543210</strong></h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <a routerLink="/payment-method" id="ckout_btn" name="next" class="action-button btn btn-default " type="button" style="float: right;">Proceed</a>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- cart-main-area end -->
+<!-- footer start -->
+<app-footer></app-footer>

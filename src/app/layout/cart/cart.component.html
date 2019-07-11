@@ -1,0 +1,168 @@
+<app-header></app-header>
+<!-- header end -->
+<!-- cart-main-area start -->
+<div class="cart-main-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <form id="msform">
+          <!-- progressbar -->
+          <ul id="progressbar">
+            <li class="active">Shopping Cart</li>
+            <li>Address</li>
+            <li>Shipping Method</li>
+            <li>Payment</li>
+          </ul>
+          <!-- fieldsets -->
+          <fieldset>
+            <div class="col-sm-8 col-xs-12" style="margin-bottom: 20px;">
+              <div class="cart_card">
+                <h2 class="fs-title">My Bag</h2>
+                <div class="row">
+                  <div class="col-md-12">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="cart_product">
+                      <div class="col-md-2 product-thumbnail">
+                        <a routerLink="/product-detail"><img src="assets/img/cart/2.jpg" alt="" /></a>
+                      </div>
+                      <div class="col-md-10 product-content">
+                        <h5>eberjey</h5>
+                        <h3><a routerLink="/product-detail">Dab Marshmello full sleeve t-shirt</a></h3>
+                        <div class="price">
+                          <span>$ 80</span>
+                          <span class="old"> $ 120</span>
+                        </div>
+                        <ul class="list-inline">
+                          <li>
+                            <h6>Grey</h6>
+                          </li>
+                          <li>
+                            <select>
+                              <option>S</option>
+                              <option>M</option>
+                              <option>L</option>
+                              <option>XL</option>
+                            </select>
+                          </li>
+                          <li>
+                            <select>
+                              <label>Qty</label>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </li>
+                        </ul>
+                        <div class="button-cart">
+                          <button><i class="fa fa-heart-o"></i> Save for Later</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="cart_product">
+                      <div class="col-md-2 product-thumbnail">
+                        <a routerLink="/product-detail"><img src="assets/img/cart/2.jpg" alt="" /></a>
+                      </div>
+                      <div class="col-md-10 product-content">
+                        <h5>eberjey</h5>
+                        <h3><a routerLink="/product-detail">Dab Marshmello full sleeve t-shirt</a></h3>
+                        <div class="price">
+                          <span>$ 80</span>
+                          <span class="old"> $ 120</span>
+                        </div>
+                        <ul class="list-inline">
+                          <li>
+                            <h6>Grey</h6>
+                          </li>
+                          <li>
+                            <select>
+                              <option>S</option>
+                              <option>M</option>
+                              <option>L</option>
+                              <option>XL</option>
+                            </select>
+                          </li>
+                          <li>
+                            <select>
+                              <label>Qty</label>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </li>
+                        </ul>
+                        <div class="button-cart">
+                          <button type="button"><i class="fa fa-heart-o"></i> Save for Later</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+              <div class="coupon">
+                <h3 class="fs-title">Coupons</h3>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Enter Coupon">
+                  <span class="input-group-btn">
+                  <button class="btn btn-default" type="button">Apply</button>
+                  </span>
+                </div>
+              </div>
+              <div class="cart_price">
+                <h3 class="fs-title">Price Details</h3>
+                <div class="cart_price_details">
+                  <h5>Cart Total <span>$99</span></h5>
+                  <h5>Estimated Tax <span>$2</span></h5>
+                  <h5>Coupon discount <span>$0</span></h5>
+                  <h5>Delivery Charges <span class="text-success">Free</span></h5>
+                  <br>
+                  <hr>
+                  <h4>Total Price <span>$101</span></h4>
+                </div>
+              </div>
+              <a routerLink="/checkout" id="ckout_btn" name="next" class="action-button btn btn-default btn-block" type="button">CHECKOUT</a>
+            </div>
+          </fieldset>
+          <fieldset>
+            <h2 class="fs-title">Social Profiles</h2>
+            <h3 class="fs-subtitle">Your presence on the social network</h3>
+            <input type="text" name="twitter" placeholder="Twitter"/>
+            <input type="text" name="facebook" placeholder="Facebook"/>
+            <input type="text" name="gplus" placeholder="Google Plus"/>
+            <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
+            <input type="button" name="next" class="next action-button" value="Next"/>
+          </fieldset>
+          <fieldset>
+            <h2 class="fs-title">Social Profiles</h2>
+            <h3 class="fs-subtitle">Your presence on the social network</h3>
+            <input type="text" name="twitter" placeholder="Twitter"/>
+            <input type="text" name="facebook" placeholder="Facebook"/>
+            <input type="text" name="gplus" placeholder="Google Plus"/>
+            <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
+            <input type="button" name="next" class="next action-button" value="Next"/>
+          </fieldset>
+          <fieldset>
+            <h2 class="fs-title">Create your account</h2>
+            <h3 class="fs-subtitle">Fill in your credentials</h3>
+            <input type="text" name="email" placeholder="Email"/>
+            <input type="password" name="pass" placeholder="Password"/>
+            <input type="password" name="cpass" placeholder="Confirm Password"/>
+            <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
+            <input type="submit" name="submit" class="submit action-button" value="Submit"/>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- cart-main-area end -->
+<!-- footer start -->
+<app-footer></app-footer>
